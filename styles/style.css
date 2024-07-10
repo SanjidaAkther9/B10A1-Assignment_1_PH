@@ -11,10 +11,10 @@
 body{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    /* margin-right: auto;
-    margin-left: auto; */
     color: rgb(13, 19, 33);
     width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Header Style  */
@@ -64,19 +64,91 @@ body{
 /* 1st Section  */
 
 .first-section-container{
-    background-color: pink;
-    width: 1140px;
-    margin: 0px 150px 150px 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    /* width: 1140px; */
+    margin: 0px 150px 80px 150px ;
     height: 1395px;
+    margin-left: 150px;
 
 }
 .div-first{
-    background-color:aquamarine;
-    margin: 80px 70px 70px 48px;
-}
-.div-first{
+    margin-top: 80px;
     text-align: center;
+    margin-left: 143px;
+    margin-right: 143px;
+    padding-top: 80px;
+    margin-bottom: 38px;
 }
+
+.div-second{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 48px;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+.section-div-first{
+    width: 850px;
+    height: 240px ;
+    text-align: left;
+}
+
+.section-head{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.section-sub{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn-two{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    height: 48px;
+}
+
+.div-second-second{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 49px;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 48px;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+
+.section-div-second{
+    /* width: 477px;
+    height: 320px ; */
+    text-align: left;
+}
+.section-div-second img{
+    height: 240px;
+    width: 240px;
+}
+
+
 .first-head{
     font-size: 32px;
     font-weight: 800;
@@ -86,7 +158,7 @@ body{
     width: 1140px;
     height: 777px;
     margin: 88px 152px 49px 149px;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 .thrid-sec-top{
     width: 852px;
@@ -193,7 +265,9 @@ body{
     margin-right: 150px;
     margin-bottom: 79px;
     background-image:url("../assets/handshake.jpg");
+    background-color: rgb(0,0,0,0.3);
     background-position: 50%;
+    background-blend-mode: overlay;
     height: 314px;
     border-radius: 16px;
    
@@ -201,12 +275,63 @@ body{
 .sub-top{
     text-align: center;
     padding: 64px 48px ;
-    color: rgb(255, 255, 255);;
+    color: rgb(255, 255, 255);
 }
 .sub-head{
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 16px;
 }
+.sub-sub{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 62px;
+    padding-right: 62px;
+}
+.sub-bottom{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 64px;
+}
+.input-sub{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+.btn-sub{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
 
+/* Footer Section  */
 
+.footer-contain{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-left{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-left{
+    display: flex;
+    gap: 24px;
+}
