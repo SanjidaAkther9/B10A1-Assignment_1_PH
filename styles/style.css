@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -72,6 +70,8 @@ body{
     margin-left: 150px;
 
 }
+
+/* 1st Container top div  */
 .div-first{
     margin-top: 80px;
     text-align: center;
@@ -95,6 +95,8 @@ body{
     margin-left: 97px;
     margin-right: 97px;
 }
+
+ 
 .section-div-first{
     width: 850px;
     height: 240px ;
@@ -122,6 +124,8 @@ body{
     height: 48px;
 }
 
+/* 1st Section Container Img & Text flex div  */
+
 .div-second-second{
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
@@ -139,8 +143,6 @@ body{
 }
 
 .section-div-second{
-    /* width: 477px;
-    height: 320px ; */
     text-align: left;
 }
 .section-div-second img{
@@ -148,12 +150,13 @@ body{
     width: 240px;
 }
 
-
 .first-head{
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px ;
 }
+
+/* Video iframe Section CSS  */
 .thrid-section{
     width: 1140px;
     height: 777px;
