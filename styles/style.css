@@ -8,21 +8,56 @@
 /* Font for entire Body  */
 body{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Optional Header  */
+
+.op-sec{
+    max-width: 1440px;
+
+}
+
+.option-header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.op-p{
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 7px;
+}
+.optional-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    width: 228px;
+    height: 58px;
+    padding: 17px 24px 17px 24px;
 }
 
 /* Header Style  */
 
 .header-div-container{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     max-width: 1440px;
     height: 652px;
     background-image: url("../assets/Hero-bg.png");
+    border-style:dashed none dashed none;
+    border-color:darkgrey;
 }
 
 .header-div-inner{
@@ -101,6 +136,7 @@ body{
     width: 850px;
     height: 240px ;
     text-align: left;
+    padding-top: 59px;
 }
 
 .section-head{
@@ -190,7 +226,7 @@ body{
     
 }
 .video-link iframe{
-    padding: 32px 20px 32px 20px;
+    padding: 32px 32px 32px 32px;
 
 }
 
@@ -200,7 +236,7 @@ body{
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 111px;
-    height: 463px;
+    /* height: 463px; */
 }
 
 .target-top{
@@ -343,4 +379,48 @@ body{
 .footer-left{
     display: flex;
     gap: 24px;
+}
+
+/* Optional Part CSS  */
+.optional-section-container{
+    margin: 0px 150px 0px 150px ;
+    height: 868px;
+}
+.div-firstt{
+    text-align: center;
+    margin-left: 143px;
+    margin-right: 143px;
+    padding-top: 0px;
+    margin-bottom: 38px;
+}
+
+.lang-div{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: left;
+    gap: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+.lang-p{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+.lang-sub-p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+.language-more a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
 }
